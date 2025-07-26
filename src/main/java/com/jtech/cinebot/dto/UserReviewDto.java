@@ -12,6 +12,6 @@ import lombok.NoArgsConstructor;
 public class UserReviewDto {
     private UserDetailsDto userDetailsDto;
     private MovieDto movieDto;
-    private ReviewDto reviewDto;
     private ActorDto actorDto;
+    private ReviewDto reviewDto;
 }

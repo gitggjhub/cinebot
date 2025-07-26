@@ -18,5 +18,12 @@ public class Movie {
     private Integer movieId;
     private String movieName;
     private String movieGenre;
+    private String language;
+    private String countryOfOrigin;
+    private String movieIndustry;
     private Integer yearOfRelease;
+    private String leadActorName;
+    private String leadActressName;
+    private Integer leadActorId;
+    private Integer leadActressId;
 }

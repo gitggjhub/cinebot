@@ -17,5 +17,9 @@ public class MovieDto {
     private String movieName;
     private String movieGenre;
     private Integer yearOfRelease;
-    private List<ActorDto> actorDtoList;
+    private String language;
+    private String countryOfOrigin;
+    private String movieIndustry;
+    private String leadActorName;
+    private String leadActressName;
 }

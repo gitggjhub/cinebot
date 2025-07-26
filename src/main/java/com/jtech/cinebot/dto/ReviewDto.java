@@ -14,13 +14,13 @@ import java.util.List;
 @Builder
 public class ReviewDto {
 
-    private Integer userId;
-    private Integer movieId;
+    private String userName;
+    private String movieName;
     private LocalDateTime dateWatchedByUser;
     private Float movieRating;
     private String commentsOnMovie;
     private String commentsOnLeadActor;
     private String commentsOnLeadActress;
-    private ActorDto actor;
-    private ActorDto actress;
+    private String actorName;
+    private String actressName;
 }

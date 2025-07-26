@@ -6,13 +6,15 @@ import com.jtech.cinebot.entity.Review;
 public class ReviewMapper {
     public static Review toEntity(ReviewDto reviewDto) {
         return Review.builder()
-                .userId(reviewDto.getUserId())
-                .movieId(reviewDto.getMovieId())
+                .userName(reviewDto.getUserName())
+                .movieName(reviewDto.getMovieName())
                 .dateWatchedByUser(reviewDto.getDateWatchedByUser())
                 .movieRating(reviewDto.getMovieRating())
                 .commentsOnMovie(reviewDto.getCommentsOnMovie())
                 .commentsOnLeadActor(reviewDto.getCommentsOnLeadActor())
                 .commentsOnLeadActress(reviewDto.getCommentsOnLeadActress())
+                .actorName(reviewDto.getActorName())
+                .actressName(reviewDto.getActressName())
                 .build();
     }
 }

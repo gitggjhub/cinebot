@@ -18,13 +18,17 @@ public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer reviewId;
+    private String userName;
     private Integer userId;
+    private String movieName;
     private Integer movieId;
     private LocalDateTime dateWatchedByUser;
     private Float movieRating;
     private String commentsOnMovie;
     private String commentsOnLeadActor;
     private String commentsOnLeadActress;
+    private String actorName;
+    private String actressName;
     private Integer actorId;
     private Integer actressId;
 }

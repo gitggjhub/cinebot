@@ -9,6 +9,11 @@ public class MovieMapper {
                 .movieName(movieDto.getMovieName())
                 .movieGenre(movieDto.getMovieGenre())
                 .yearOfRelease(movieDto.getYearOfRelease())
+                .language(movieDto.getLanguage())
+                .countryOfOrigin(movieDto.getCountryOfOrigin())
+                .movieIndustry(movieDto.getMovieIndustry())
+                .leadActorName(movieDto.getLeadActorName())
+                .leadActressName(movieDto.getLeadActressName())
                 .build();
     }
 }
